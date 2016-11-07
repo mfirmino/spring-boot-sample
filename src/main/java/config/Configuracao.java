@@ -20,7 +20,7 @@ public class Configuracao {
     @RequestMapping("/")
     @ResponseBody
     public String boasVindas(){
-        return "Olá, bem vindo ao sistema Lista VIPs";
+        return "<h1>Olá. Bem-vindo ao sistema Lista VIP</h1>";
     }
 
 }
